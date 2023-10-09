@@ -1,0 +1,4 @@
+Noe --------------> (FGK) ------------------> (JOIN)
+Luckas -----------> (Citala) ---------------> (UNJOIN)
+Leandro ----------> (Don Bosco) ------------> (UNJOIN)
+Elizabeth --------> (Ricaldone) ------------> (UNJOIN)

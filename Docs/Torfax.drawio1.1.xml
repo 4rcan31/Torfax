@@ -1,0 +1,400 @@
+<mxfile host="app.diagrams.net" modified="2023-08-27T00:17:34.504Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="BhldM1dl3aFzQs5puCj-" version="21.6.9" pages="3">
+  <diagram name="Diagrama Funcionamiento" id="KaRL7IBIG4WsnrvJ8K7m">
+    <mxGraphModel dx="1434" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_ES_SosYERnUc2k4E07f-18" value="" style="swimlane;startSize=0;fillColor=#1f2737;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="480" y="110" width="310" height="340" as="geometry">
+            <mxRectangle x="480" y="170" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ES_SosYERnUc2k4E07f-12" value="App 1" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="_ES_SosYERnUc2k4E07f-18">
+          <mxGeometry x="200" y="10" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_ES_SosYERnUc2k4E07f-16" value="App N" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="_ES_SosYERnUc2k4E07f-18">
+          <mxGeometry x="200" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_ES_SosYERnUc2k4E07f-13" value="App 2" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="_ES_SosYERnUc2k4E07f-18">
+          <mxGeometry x="200" y="115" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_ES_SosYERnUc2k4E07f-19" value="" style="swimlane;startSize=0;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="330" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="_ES_SosYERnUc2k4E07f-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="_ES_SosYERnUc2k4E07f-19" source="_ES_SosYERnUc2k4E07f-2" target="_ES_SosYERnUc2k4E07f-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_ES_SosYERnUc2k4E07f-2" value="Base de datos with MySQL" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="_ES_SosYERnUc2k4E07f-19">
+          <mxGeometry x="10" y="160" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_ES_SosYERnUc2k4E07f-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="_ES_SosYERnUc2k4E07f-19" source="_ES_SosYERnUc2k4E07f-1" target="_ES_SosYERnUc2k4E07f-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_ES_SosYERnUc2k4E07f-1" value="Backend with laravel" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="_ES_SosYERnUc2k4E07f-19">
+          <mxGeometry x="170" y="180" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_ES_SosYERnUc2k4E07f-8" value="Frotend ligado al backend with Laravel Blade (CEO frotn)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="_ES_SosYERnUc2k4E07f-19">
+          <mxGeometry x="150" y="20" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_ES_SosYERnUc2k4E07f-7" value="Aplicacion Frotend principal with React" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="_ES_SosYERnUc2k4E07f-19">
+          <mxGeometry x="190" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_ES_SosYERnUc2k4E07f-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_ES_SosYERnUc2k4E07f-19" source="_ES_SosYERnUc2k4E07f-1" target="_ES_SosYERnUc2k4E07f-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_ES_SosYERnUc2k4E07f-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_ES_SosYERnUc2k4E07f-1" target="_ES_SosYERnUc2k4E07f-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_ES_SosYERnUc2k4E07f-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_ES_SosYERnUc2k4E07f-1" target="_ES_SosYERnUc2k4E07f-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_ES_SosYERnUc2k4E07f-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_ES_SosYERnUc2k4E07f-1" target="_ES_SosYERnUc2k4E07f-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xs6MzNohrZiR-th_-GW4" name="Auth">
+    <mxGraphModel dx="1434" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_kiY1r8LmdbpqFCMf-cn-6" value="Desarrollador CEO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=4;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="170" y="20" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.539;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="_kiY1r8LmdbpqFCMf-cn-3" target="dQfOj2gpOwFS6t5rx69t-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_kiY1r8LmdbpqFCMf-cn-3" value="Frotn Blade" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="770" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_kiY1r8LmdbpqFCMf-cn-1" value="DB TORFAX" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="_kiY1r8LmdbpqFCMf-cn-2" target="dQfOj2gpOwFS6t5rx69t-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="_kiY1r8LmdbpqFCMf-cn-2" target="dQfOj2gpOwFS6t5rx69t-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="_kiY1r8LmdbpqFCMf-cn-2" target="dQfOj2gpOwFS6t5rx69t-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="160" />
+              <mxPoint x="608" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_kiY1r8LmdbpqFCMf-cn-2" value="Laravel backend" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="390" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EZ7p6uGhTz_tF2NBwzpk-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_kiY1r8LmdbpqFCMf-cn-4" target="EZ7p6uGhTz_tF2NBwzpk-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_kiY1r8LmdbpqFCMf-cn-4" target="dQfOj2gpOwFS6t5rx69t-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="380" />
+              <mxPoint x="710" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_kiY1r8LmdbpqFCMf-cn-4" target="dQfOj2gpOwFS6t5rx69t-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_kiY1r8LmdbpqFCMf-cn-4" value="Front&lt;br&gt;React User final" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="870" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_kiY1r8LmdbpqFCMf-cn-18" target="dQfOj2gpOwFS6t5rx69t-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=0.978;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="_kiY1r8LmdbpqFCMf-cn-18" target="dQfOj2gpOwFS6t5rx69t-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_kiY1r8LmdbpqFCMf-cn-18" value="App User dev N" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_kiY1r8LmdbpqFCMf-cn-20" value="Pedir un token para &lt;br&gt;aplicación Desarrollador User" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="770" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="PAfJrpQwPvjhKukrCSJh-5" target="dQfOj2gpOwFS6t5rx69t-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PAfJrpQwPvjhKukrCSJh-5" value="Browser N&lt;br&gt;User of App N without acount Torfax" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PAfJrpQwPvjhKukrCSJh-6" target="dQfOj2gpOwFS6t5rx69t-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PAfJrpQwPvjhKukrCSJh-6" value="Browser N User of App React (User Normal)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="720" y="750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EZ7p6uGhTz_tF2NBwzpk-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PAfJrpQwPvjhKukrCSJh-9" target="EZ7p6uGhTz_tF2NBwzpk-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PAfJrpQwPvjhKukrCSJh-9" target="dQfOj2gpOwFS6t5rx69t-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="670" />
+              <mxPoint x="540" y="670" />
+              <mxPoint x="540" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PAfJrpQwPvjhKukrCSJh-9" target="dQfOj2gpOwFS6t5rx69t-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PAfJrpQwPvjhKukrCSJh-9" value="Browser N User of App React (User dev)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EZ7p6uGhTz_tF2NBwzpk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EZ7p6uGhTz_tF2NBwzpk-10" target="_kiY1r8LmdbpqFCMf-cn-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="520" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EZ7p6uGhTz_tF2NBwzpk-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EZ7p6uGhTz_tF2NBwzpk-9" target="_kiY1r8LmdbpqFCMf-cn-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="350" />
+              <mxPoint x="490" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EZ7p6uGhTz_tF2NBwzpk-9" value="Pedir el token al backend para&amp;nbsp;autentificar&amp;nbsp;&lt;br&gt;&amp;nbsp;app User Dev N" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EZ7p6uGhTz_tF2NBwzpk-10" value="Pedir un token al Frotn react para&amp;nbsp;autentificar&amp;nbsp;&lt;br&gt;&amp;nbsp;app User Dev N" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="505" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dQfOj2gpOwFS6t5rx69t-4" target="_kiY1r8LmdbpqFCMf-cn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-4" value="Mandar User And password" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dQfOj2gpOwFS6t5rx69t-7" target="_kiY1r8LmdbpqFCMf-cn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-7" value="Verificar User And Password" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dQfOj2gpOwFS6t5rx69t-10" target="PAfJrpQwPvjhKukrCSJh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-10" value="Si todo salio bien, Dar todas las apps conectadas a ese usuario" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="645" width="140" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="dQfOj2gpOwFS6t5rx69t-13" target="_kiY1r8LmdbpqFCMf-cn-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-13" value="Guardar el token para&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;autentificar Servidor con&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;AllPermisions&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="dQfOj2gpOwFS6t5rx69t-20" target="_kiY1r8LmdbpqFCMf-cn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-20" value="Hacer un token para&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;aplicación All Permisions&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;para Front React&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;User Final&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="60" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="dQfOj2gpOwFS6t5rx69t-23" target="_kiY1r8LmdbpqFCMf-cn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-23" value="Entregar token con&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;All permisions y&amp;nbsp;&lt;/span&gt;Conectar App principal Front&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;con el back con el token&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;Auht AllPermisions que se entrego&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="200" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dQfOj2gpOwFS6t5rx69t-27" target="_kiY1r8LmdbpqFCMf-cn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-27" value="Verificar ese token&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;que le dio el&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;Frotn React User&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dQfOj2gpOwFS6t5rx69t-31" target="_kiY1r8LmdbpqFCMf-cn-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-31" value="Crea" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="535" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-34" value="DB App User Dev" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="dQfOj2gpOwFS6t5rx69t-39" target="_kiY1r8LmdbpqFCMf-cn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-39" value="Login (Pedir un jwt firmado temporalmente, esto para que sea publico)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="270" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="dQfOj2gpOwFS6t5rx69t-51" target="_kiY1r8LmdbpqFCMf-cn-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-51" value="Login&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="dQfOj2gpOwFS6t5rx69t-57" target="_kiY1r8LmdbpqFCMf-cn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQfOj2gpOwFS6t5rx69t-57" value="Regresar el token y redireccionar al FrontUser con ese token al&amp;nbsp; login page de Torfax" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="260" width="145" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ay99J0PI5oDla6h0RCEq" name="Auth Apps  creates by TOrfax">
+    <mxGraphModel dx="1434" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Tt4gMxciWbmOL_3ErOct-52" value="Auth Apps creates by Torfax" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="264" y="10" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt4gMxciWbmOL_3ErOct-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tt4gMxciWbmOL_3ErOct-53" target="Tt4gMxciWbmOL_3ErOct-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt4gMxciWbmOL_3ErOct-53" value="DB" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="25" y="43" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt4gMxciWbmOL_3ErOct-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tt4gMxciWbmOL_3ErOct-54" target="Tt4gMxciWbmOL_3ErOct-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n5qGvvTnhhNrZOz_M5dv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="Tt4gMxciWbmOL_3ErOct-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="573" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="123" />
+              <mxPoint x="405" y="123" />
+              <mxPoint x="405" y="553" />
+              <mxPoint x="435" y="553" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n5qGvvTnhhNrZOz_M5dv-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="Tt4gMxciWbmOL_3ErOct-54" target="n5qGvvTnhhNrZOz_M5dv-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="103" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tt4gMxciWbmOL_3ErOct-54" value="Backend" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt4gMxciWbmOL_3ErOct-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tt4gMxciWbmOL_3ErOct-56" target="Tt4gMxciWbmOL_3ErOct-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt4gMxciWbmOL_3ErOct-56" value="Frotned Blade" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt4gMxciWbmOL_3ErOct-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tt4gMxciWbmOL_3ErOct-62" target="Tt4gMxciWbmOL_3ErOct-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt4gMxciWbmOL_3ErOct-62" value="Browser user CEO" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="353" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt4gMxciWbmOL_3ErOct-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tt4gMxciWbmOL_3ErOct-64" target="Tt4gMxciWbmOL_3ErOct-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt4gMxciWbmOL_3ErOct-64" value="Auth by DB table Staff CEO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="173" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt4gMxciWbmOL_3ErOct-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tt4gMxciWbmOL_3ErOct-67" target="Tt4gMxciWbmOL_3ErOct-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt4gMxciWbmOL_3ErOct-67" value="Generar api keys for servers with AllPermisions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="310" width="169" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n5qGvvTnhhNrZOz_M5dv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="Tt4gMxciWbmOL_3ErOct-69" target="n5qGvvTnhhNrZOz_M5dv-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="367" />
+              <mxPoint x="755" y="367" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n5qGvvTnhhNrZOz_M5dv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="Tt4gMxciWbmOL_3ErOct-69" target="n5qGvvTnhhNrZOz_M5dv-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="750" />
+              <mxPoint x="470" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tt4gMxciWbmOL_3ErOct-69" value="App principal FrontServer, for users of Torfax" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="490" width="130" height="71.02" as="geometry" />
+        </mxCell>
+        <mxCell id="13jnJJ9Oea0_GC7Zu-LT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="Tt4gMxciWbmOL_3ErOct-75" target="13jnJJ9Oea0_GC7Zu-LT-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n5qGvvTnhhNrZOz_M5dv-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="Tt4gMxciWbmOL_3ErOct-75" target="n5qGvvTnhhNrZOz_M5dv-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt4gMxciWbmOL_3ErOct-75" value="Catalina for public health systems" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="618.98" width="126" height="71.02" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt4gMxciWbmOL_3ErOct-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="Tt4gMxciWbmOL_3ErOct-85" target="Tt4gMxciWbmOL_3ErOct-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt4gMxciWbmOL_3ErOct-85" value="Browser N without account Torfax" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="85" y="960" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt4gMxciWbmOL_3ErOct-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.422;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="Tt4gMxciWbmOL_3ErOct-86" target="Tt4gMxciWbmOL_3ErOct-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt4gMxciWbmOL_3ErOct-86" value="Login [1]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="850" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="13jnJJ9Oea0_GC7Zu-LT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="13jnJJ9Oea0_GC7Zu-LT-1" target="Tt4gMxciWbmOL_3ErOct-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="305" y="153" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13jnJJ9Oea0_GC7Zu-LT-1" value="Login (Pedir un jwt firmado temporalmente, esto para que sea publico) [2]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="443" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n5qGvvTnhhNrZOz_M5dv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="A-WRF7Qrq6gcXYR9vt9Y-1" target="Tt4gMxciWbmOL_3ErOct-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-WRF7Qrq6gcXYR9vt9Y-1" value="Regresar el token temporal y redireccionar al FrontUser con ese token al&amp;nbsp; login page de Torfax [3]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="570" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n5qGvvTnhhNrZOz_M5dv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="n5qGvvTnhhNrZOz_M5dv-6" target="Tt4gMxciWbmOL_3ErOct-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n5qGvvTnhhNrZOz_M5dv-6" value="Se redirecciona el user al home de catalina con el token de session para que el servidor lo guarde en su DB y inicie session [6]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="720" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n5qGvvTnhhNrZOz_M5dv-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="n5qGvvTnhhNrZOz_M5dv-9" target="Tt4gMxciWbmOL_3ErOct-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n5qGvvTnhhNrZOz_M5dv-9" value="Verifica si el usuario existe y las credenciales son correctas, o simplemente hace el register [4]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="133" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n5qGvvTnhhNrZOz_M5dv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="n5qGvvTnhhNrZOz_M5dv-12" target="Tt4gMxciWbmOL_3ErOct-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n5qGvvTnhhNrZOz_M5dv-12" value="Devuelve un token de session en el caso que el usuario haya sido validado [5]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="253" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n5qGvvTnhhNrZOz_M5dv-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="n5qGvvTnhhNrZOz_M5dv-18" target="n5qGvvTnhhNrZOz_M5dv-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n5qGvvTnhhNrZOz_M5dv-18" value="Guarda la session" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="870" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n5qGvvTnhhNrZOz_M5dv-20" value="DB CATALINA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n5qGvvTnhhNrZOz_M5dv-22" value="&lt;h1&gt;Nota&lt;/h1&gt;&lt;p&gt;1) Torfax ya tiene un panel para crear aplicaciones, no hace falta crear una cuenta de Torfax, por que ya tiene allpermisions en el front blade&lt;/p&gt;&lt;p&gt;2) Ftecnology sigue la misma logica de auth que Catalina, a diferencia, es que se conecta con otro server (connecta)&lt;/p&gt;&lt;p&gt;3) Connecta sigue la misma logica de auth que Catalina y Ftecnology, ya que es una app de Torfax, a diferecia que esta es otra app API&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="910" width="220" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lsvG6tpnnizyg2oTBfXW-1" value="Connecta (for connect iot to HTTP)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="810" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lsvG6tpnnizyg2oTBfXW-2" value="FTecnology&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
